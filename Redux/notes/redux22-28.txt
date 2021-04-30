@@ -1,0 +1,85 @@
+OAth Authentication
+-user authenticates with outside service provider
+	(google, facebook, linkedin)
+-user authorizes app to access their information
+-Outside provide provides info about user.
+-can be used for user identification in the app and the app making actions 
+	on behalf of the user
+
+OAth for servers
+-results in a token that a server can use to make request on behalf of the user
+-Usually used when an app needs to access user data when they are not logged in
+-Difficult to setup; stores a lot of info about the user
+
+
+OAuth for JS Browser Apps
+-Results in a token that a browser app can use to make requests on behalf of the user
+-Usually used when an app needsto access user data while they are logged in
+-Easy to set up; Google JS library to automate flow
+
+Redux DevTools
+-extension app in chrome 
+-used for monitoring data in redux store
+
+localhost:3000?debug_session = <some_string>
+-makes redux devtools automatically save all data inside redux stores despite refreshing
+
+Redux-form.com
+-redux-from documentations and examples
+
+Props System
+-gets data from a parent component to a direct child component
+
+Context System
+-gets data from a parent component to any nested child component
+
+1. Progress:
+-Finished React with Redux tutorial
+	-Redux [store, reducers, actions, React Router]
+	-Google OAuth scopesn
+	-Context system with React
+	
+
+2. Problems:
+-none
+
+
+3. Plans for tomorrow:
+-Proceed with django tutorial
+
+
+4. Learnigs/Realizations:
+OAth Authentication
+-user authenticates with outside service provider
+	(google, facebook, linkedin)
+-user authorizes app to access their information
+-Outside provide provides info about user.
+-can be used for user identification in the app and the app making actions 
+	on behalf of the user
+
+OAth for servers
+-results in a token that a server can use to make request on behalf of the user
+-Usually used when an app needs to access user data when they are not logged in
+-Difficult to setup; stores a lot of info about the user
+
+OAuth for JS Browser Apps
+-Results in a token that a browser app can use to make requests on behalf of the user
+-Usually used when an app needsto access user data while they are logged in
+-Easy to set up; Google JS library to automate flow
+
+Redux DevTools
+-extension app in chrome 
+-used for monitoring data in redux store
+
+localhost:3000?debug_session = <some_string>
+-makes redux devtools automatically save all data inside redux stores despite refreshing
+
+Redux-form.com
+-redux-from documentations and examples
+
+Props System
+-gets data from a parent component to a direct child component
+
+Context System
+-gets data from a parent component to any nested child component
+

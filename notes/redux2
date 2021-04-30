@@ -1,0 +1,82 @@
+Middleware
+	-a functino that gets called with every action that is dispatched
+	-has the ability to stop, modify, or configure actions
+	-are known for handling async actions
+
+Redux-thunk
+	-a middleware to help make requests in a redux application
+	-allows action creators return functions and call it automatically
+Action creators are responsible for making API requests
+	-Redux-thunk comes in
+Synchronous action creator
+	-instantly returns an action with data ready to go
+Asynchronous action creator
+	-takes time for it to get its data ready to go
+
+Rules of Reducers:
+	-must return any value besides 'undefined'
+	- produces 'state' or data to be used inside the app
+		using only previous state and the function
+	-must not reach out of another function; keep reducer pure
+	-must not mutate/change/override input state arguments inside reducer
+		(strings and numbers are immutable)
+		
+'ownProps' iniside mapStateToProps
+	-a reference to the props that are sent from another component to mapStateToProps component
+
+Lodash.com
+	-modern javascript utility library
+	-_memoize
+		-calls the function one time with every unique argument
+		-makes multiple similar requests into one request
+		
+1.Progress:
+-Exploring 01Booster system functionalities and features
+-Almost completely done with React with Redux tutorial
+	-5 sections left
+-Familiarized Redux and Redux-thunk
+	-created blog app using redux-thunk
+		-memoize, async vs sync action creators
+
+2.Problems:
+-N/A
+
+
+3.Plans for next meeting:
+-familiarize project code
+-Finish last 5 sections of React with Redux course
+-Start Django course
+
+
+4.Learnings/Realizations:
+-Middleware
+	-a functino that gets called with every action that is dispatched
+	-has the ability to stop, modify, or configure actions
+	-are known for handling async actions
+
+-redux-thunk
+	-a middleware to help make requests in a redux application
+	-allows action creators return functions and call it automatically
+-Action creators are responsible for making API requests
+	-Redux-thunk comes in
+-Synchronous action creator
+	-instantly returns an action with data ready to go
+-Asynchronous action creator
+	-takes time for it to get its data ready to go
+
+-Rules of Reducers:
+	-must return any value besides 'undefined'
+	- produces 'state' or data to be used inside the app
+		using only previous state and the function
+	-must not reach out of another function; keep reducer pure
+	-must not mutate/change/override input state arguments inside reducer
+		(strings and numbers are immutable)
+		
+-'ownProps' iniside mapStateToProps
+	-a reference to the props that are sent from another component to mapStateToProps component
+
+-Lodash.com
+	-modern javascript utility library
+	-_memoize
+		-calls the function one time with every unique argument
+		-makes multiple similar requests into one request

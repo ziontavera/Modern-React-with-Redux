@@ -1,0 +1,84 @@
+https://github.com/airbnb/javascript/tree/master/react#naming
+
+
+React
+-knows how to work with components
+-Called a 'reconciler'
+
+ReactDOM
+-Knows how to take instructions on what we want to show and turn it into HTML
+-Called a 'renderer'
+
+useState 
+-function for working with 'state' system in React
+-used to monitor data that changes over time
+-use to make React update the HTML
+
+react component
+-a function or a class that produces HTML to show the user using JSX 
+	and handles feedback from the user using event handlers.
+	
+JSX
+-special dialect of JS (it is not HTML)	
+-Basically uses different syntaxes when adding styles and classe to an element
+-Can access JS variables
+
+-Javascript objects can be stored in a variable and be used so long as it wont be
+printed as text inside the application
+
+Semantic UI
+-open source css framework
+
+Faker,js
+-generate massive ammounts of realistic fake data 
+
+create reusable/configurable components for easy navigation and monitoring of code
+-link 2 files using import and export for effective componentNesting
+Prop System
+-having a parent customize how the child behaves.
+-child cannot pass data to the parent but parent can pass data to child
+
+
+1. Progress:
+-Started Modern React with Redux course
+	-finished sections (1-4)
+		-React Intro, File Structure, Prop hanlding
+
+
+2. Problems:
+-NA
+
+3. Tomorrow's Plans:
+-Continue React course (4 - 14)
+
+
+4. Learnings/Realizations:
+-React
+	-knows how to work with components
+	-Called a 'reconciler'
+-ReactDOM
+	-Knows how to take instructions on what we want to show and turn it into HTML
+	-Called a 'renderer'
+-useState 
+	-function for working with 'state' system in React
+	-used to monitor data that changes over time
+	-use to make React update the HTML
+-react component
+	-a function or a class that produces HTML to show the user using JSX 
+		and handles feedback from the user using event handlers.
+-JSX
+	-special dialect of JS (it is not HTML)	
+	-Basically uses different syntaxes when adding styles and classe to an element
+	-Can access JS variables
+-Javascript objects can be stored in a variable and be used so long as it wont be
+printed as text inside the application
+-Semantic UI
+	-open source css framework
+-Faker.js
+	-generate massive ammounts of realistic fake data 
+-create reusable/configurable components for easy navigation and monitoring of code
+-link 2 files using import and export for effective componentNesting
+-Prop System
+	-having a parent customize how the child behaves.
+	-child cannot pass data to the parent but parent can pass data to child
+

@@ -1,0 +1,36 @@
+Arguments: 
+  /home/sunasterisk/.nvm/versions/node/v12.19.0/bin/node /home/sunasterisk/.yvm/versions/v1.7.0/bin/yarn.js add create reac-app translate
+
+PATH: 
+  /home/sunasterisk/.yvm/versions/v1.7.0/bin:/home/sunasterisk/.nvm/versions/node/v12.19.0/bin:/home/sunasterisk/.yvm/shim:/home/sunasterisk/.pyenv/bin:/home/sunasterisk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/share/npm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/reac-app: Not found
+      at Request.params.callback [as _callback] (/home/sunasterisk/.yvm/versions/v1.7.0/lib/cli.js:65656:18)
+      at Request.self.callback (/home/sunasterisk/.yvm/versions/v1.7.0/lib/cli.js:134675:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/home/sunasterisk/.yvm/versions/v1.7.0/lib/cli.js:135658:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/home/sunasterisk/.yvm/versions/v1.7.0/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1223:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

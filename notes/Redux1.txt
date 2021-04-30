@@ -1,0 +1,69 @@
+
+
+custom hooks
+-best way to create reusable code besides components
+-created by extracting hook-related code out of a function component
+-always makes use of at least one primitive hook internally
+-great for data fetching
+
+
+
+
+
+1. Progress:
+-finished React course
+	-Created widgets application using Hooks 
+	-Google translate, Accordion feature,
+		Searching List feature, Dropdown feature
+	-Debouncing requests using setTimeout & clearTimout
+	-Event bubbling
+-Now started familiarizing Redux
+	-introduction
+		-Action creator, action, dispatch,
+			reducers, state
+	-integrating react with redux
+
+2. Problems:
+-NA
+
+
+3. Tomorrow's Plans:
+-Complete Modern React with Redux course
+
+
+4. Learnings/Realizations:
+-Custom hooks
+	-best way to create reusable code besides components
+	-created by extracting hook-related code out of a function component
+	-always makes use of at least one primitive hook internally
+	-great for data fetching
+
+-Redux
+	-State management library
+	-makes complex applications easier
+	-not required to create a react app
+	-not explicitly designed to work with  react
+
+-Action Creator
+	-a function called when changing state
+-Action
+	-output of an Action creator
+	-describes how data is changed inside the application
+-Dispatch
+	-gets Action objects and makes copies
+	-Feeds data to Reducers
+-Reducers 
+	-Process given Action from Dispatch
+	-modify data when needed
+	-return new data (State Object)
+-State
+	-Output of Reducers after processing data
+
+-Filter function
+	-filters specified data and returns new filitered data 
+
+-Reducer Goal - take exisiting data and Action and then modify data based on contents of Action
+
+-React-Redux library
+	-a library for linking React and Redux
+

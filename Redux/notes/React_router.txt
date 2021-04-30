@@ -1,0 +1,15 @@
+React-router 
+	- core navigation library
+React-router-dom
+	-navigation for dom-based apps
+React-router-native
+	-navigation for react-native
+	-native mobile applications
+React-router-redux
+	-bindings betwen redux and react router
+	
+	
+Avoid using anchor tags in react-router-dom
+	-when clicking anchor tags, the browser receives new html file
+		and dumps old html file along with React/Redux state data
+

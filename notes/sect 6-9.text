@@ -1,0 +1,285 @@
+React before:
+-Function Components
+	-can produce JSX to show content to the user
+
+-Class Components
+	-can produce JSX to show content to the user
+	-can use the Lifecycle method system to run code
+		at specific points in time
+	-Can use  'state' system to update content on the screen
+
+React now (with Hooks system):
+Function Components are similar with class components
+
+Geolocation
+-gets user's position in the globe
+
+Subclassing
+-borrowing methods from another class using 'extends'
+
+State
+-a JS object that contains data relevant to a component
+-often confused with props
+-updating state causes the component to (almost) instantly rerender
+-State must be initialized when creating a component
+-State can only be updated using the function 'setState' (IMPORTANT)
+
+Super
+-a reference to the parent constructor function
+
+Lifecycle Methods
+	1.Constructor 
+		-a function defined and is called when a new instance of the component is created
+		-good place to do initializations
+	2. Render
+		-called when updating components
+		-returning JSX
+	*component visible on screen*
+	3.compinentDidMount 
+		-called when component is rendered on screen
+		-good place to do data-loading
+	*wait for updates*
+	4.componentDidUpdate 
+		-called when component updates itself
+		-good place to do more data-loading when components are updated
+	*waits until component is no longer shown*
+	5.componentWillUnmount 
+		-called if components are removed on screen
+		-good place to do cleanup
+
+avoid having multiple return statements in a render method for clean code.
+		
+		
+		
+*geolocation app with props, states, and lifecycle methods, with added icons and styling
+		
+		
+1.Progress:
+  a. Finished sections 4-6 of modern react with redux course
+  	-currently on section 7, plan to finish before 10pm
+  b. Created geolocation web app with Props, states, lifecycle methods, with added icons and styling.
+  c. Currently in the process of building a form application with user input and event handling.
+  
+2. Problems:
+ -NA
+ 
+3. Tomorrow's Plans:
+ -Continue Modern React course sections 8 - 14
+ 
+ 
+4. Learnings/ Realizations:
+
+-Geolocation
+	-gets user's position in the globe
+
+-Subclassing
+	-borrowing methods from another class using 'extends'
+
+-State
+	-a JS object that contains data relevant to a component
+	-often confused with props
+	-updating state causes the component to (almost) instantly rerender
+	-State must be initialized when creating a component
+	-State can only be updated using the function 'setState' (IMPORTANT)
+
+-Super
+	-a reference to the parent constructor function
+
+-Lifecycle Methods:
+	A.Constructor 
+		-a function defined and is called when a new instance of the component is created
+		-good place to do initializations
+	B. Render
+		-called when updating components
+		-returning JSX
+	*component visible on screen*
+	C.compinentDidMount 
+		-called when component is rendered on screen
+		-good place to do data-loading
+	*wait for updates*
+	D.componentDidUpdate 
+		-called when component updates itself
+		-good place to do more data-loading when components are updated
+	*waits until component is no longer shown*
+	E.componentWillUnmount 
+		-called if components are removed on screen
+		-good place to do cleanup
+
+-Avoid having multiple return statements in a render method for clean code.
+
+
+
+
+
+
+
+
+
+
+-No parentheses when passing a callback function to any event handler 
+
+onClick
+-user clicks on something
+
+onChange
+-user changes text in input
+
+onSubmit
+-user submits a form
+
+
+Controlled vs Uncontrolled components
+-controlled components let react be the one to hold the values and not the DOM
+-controlled components are easy to navigate when finding a value at a point in time.
+
+'This' used in a class vs 'This' used in a function
+-using 'This' in a class gives direct access to an object instance inside the class itself.
+-the value of 'This' when used in a function depends on what class instance it is refered to. 
+	e.g.
+		class something{
+			setSomethingToDoSomething(DoSomething){
+				this.DoSomething = DoSomething;		//using 'This' in a class
+			}
+			
+			saySomething(){
+				return this.DoSomething;
+			}
+		}
+		
+		const something = new Something () 	//a new instance of the class Something
+		something.SetSomething('blah');
+		something.saySomething();		//using 'This' in a function
+							//'This' refers to the className set before the period (.)
+							//in this case, the class something
+
+bind()
+-create a new version of a function when called that always has the correct value of 'this'
+
+ARROW FUNCTION SOLVES UNDEFINED THIS'S
+ARROW FUNCTION AUTOMATICALLY BINDS THE VALUE OF THIS FOR ALL THE CODE INSIDE OF THE FUNCTION
+
+
+
+Making api requests using React
+Map statements
+	-traversing through arrays or lists
+	-rendering list of components
+
+Data fetching through AJAX Client
+
+Axios
+	-3rd party package that can be installed using npm
+	-more efficient compared to Fetch
+	-essential functions are already isntalled and are ready to go
+
+Fetch
+	-a function that is built in almost all modern browsers
+	-more like a DIY type of approach. Need to create essential functions from scratch
+	
+Both are for managing network requests and fetching data
+
+
+Promise Object
+	-sends a notification when a function is finished executing
+	-".then()"
+
+'async..await' syntax
+	-alternative way to get notification when a function is done executing
+	-similar to promise object's ".then()"
+	-easier to understand and to code
+	
+- 'keys' in Lists
+	-serves as a performance consideration
+	-purpose is to help React to render/update Lists more efficiently
+	
+-Grid CSS
+	-grid-template-columns	
+		-creates a set number of columns
+			-'auto-fill' automatically decides how many columns are created
+	-grid-gap
+
+01Booster project meeting
+	-Booster Accelerater Program
+		
+		
+Next JS tutorial: https://www.youtube.com/watch?v=mTz0GXj8NN0
+		
+ 
+ 
+1. Progress:
+ 
+  A. Project meeting with Dai-san, Aubrey, Rose, and Soki-san(01Booster)
+  	-tasked to prepare local env
+  B. Installed pyenv and pipenv
+  C. Currently on the 10th section of Modern React with Redux course
+  	-building a search engine with unsplash
+  		-Handling user input with forms and events, fetching data from outside API (Unsplash)
+  		-Lists & Ref's for DOM Access
+  
+  
+2. Problems:
+	- Could not install pyenv properly
+		-SOLVED: "source ~ ./zshrc"
+ 
+3. Tomorrow's Plans:
+	-Continue React tutorial section 11 - 14
+	-Project Meeting @6pm (01Booster)
+
+4. Learnings/Realizations:
+-onClick
+	-user clicks on something
+
+-onChange
+	-user changes text in input
+
+-onSubmit
+	-user submits a form
+
+-Controlled vs Uncontrolled components
+	-controlled components let react be the one to hold the values and not the DOM
+	-controlled components are easy to navigate when finding a value at a point in time.
+
+'This' used in a class vs 'This' used in a function
+	-using 'This' in a class gives direct access to an object instance inside the class itself.
+	-the value of 'This' when used in a function depends on what class instance it is refered to. 
+		
+'bind()'
+	-create a new version of a function when called that always has the correct value of 'this'
+-Arrow keys solve undefined this's
+-Map statements
+	-traversing through arrays or lists
+	-rendering list of components
+
+-Data fetching through AJAX Client
+	-Axios
+		-3rd party package that can be installed using npm
+		-more efficient compared to Fetch
+		-essential functions are already isntalled and are ready to go
+
+	-Fetch
+		-a function that is built in almost all modern browsers
+		-more like a DIY type of approach. Need to create essential functions from scratch		
+-Promise Object
+	-sends a notification when a function is finished executing
+	-".then()"
+
+-'async..await' syntax
+	-alternative way to get notification when a function is done executing
+	-similar to promise object's ".then()"
+	-easier to understand and to code
+	
+-'keys' in Lists
+	-serves as a performance consideration
+	-purpose is to help React to render/update Lists more efficiently
+	
+-Grid CSS
+	-grid-template-columns	
+		-creates a set number of columns
+			-'auto-fill' automatically decides how many columns are created
+		
+		
+		
+		
+		
+		
+		

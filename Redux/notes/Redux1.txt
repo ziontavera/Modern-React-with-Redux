@@ -1,0 +1,50 @@
+Redux
+-State management library
+-makes complex applications easier
+-not required to create a react app
+-not explicitly designed to work with  react
+
+
+Action Creator
+	-a function called when changing state
+Action
+	-output of an Action creator
+	-describes how data is changed inside the application
+Dispatch
+	-gets Action objects and makes copies
+	-Feeds data to Reducers
+Reducers 
+	-Process given Action from Dispatch
+	-modify data when needed
+	-return new data (State Object)
+State
+	-Output of Reducers after processing data
+	
+
+
+
+Filter function
+	-filters specified data and returns new filitered data 
+
+Reducer Goal - take exisiting data and Action and then modify data based on contents of Action
+
+React-Redux library
+	-a library for linking React and Redux
+=================================================================================================================
+
+Named export
+-allows exporting multiple functions in a single file
+Default exports
+-allows only one function to export in a file
+
+function()
+	-calls the function
+function()()
+	-calls the function that is being returned
+mapStateToProps
+	-take state objects and configure it to be made as Props
+	
+	
+	
+Redux does not automatially detect action creators being called
+Redux does not automatically detect a function returning an object that is an 'action'

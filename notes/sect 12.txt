@@ -1,0 +1,123 @@
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+1. Progress:
+-Created a video browsing application with React
+	-event handling, form handling, styling, deeply nested call backs
+	-playable videos using youtube api
+	-data rendering (video thumbnail rendering, conditional rendering)
+	
+-Currently on Section 12 of Modern React tutorial course
+	-Hooks system, understanding Hooks
+
+2. Problems:
+	-None
+
+3. Tomorrow's Plan:
+-Finish React tutorial course and proceed with learning Redux
+
+
+4. Learnings/Realizations:
+Hooks System:
+-a way to rewrite reusable code instead of classic techniques like inheritance
+	-useState
+		-uses state in a functional component
+	-useEffect
+		-uses lifecycle methods in a functional component
+		-2nd Arguement
+			-[] - run initial render
+			-nothing - run initial render & run after every single rerender
+			-[data] - run initial render & run after every single rerender,
+					when data is changed since last render
+	-useRef
+		-creates a 'ref' in a function component
+Class components vs Function Components:
+	Initialization:
+		Class components 
+			-'state = {activeIndex: 0}'
+			-'state = {activeIndex: 0, term}'
+		Function Components	
+			-'useState(0)'
+			-'const [activeIndex, setActiveIndex] = useState(0);'
+				'const[term, setTerm] = useState("")'
+	Reference:
+		Class Components:
+			-'this.state.activeIndex'
+			-'this.state.term;'
+		Function Components:
+			-'activeIndex'
+			-'term'		
+	Updates:	
+		Class Components:
+			-'this.setState({activeIndex: 10, term: 'hi'})'
+		Function Components:
+			-"setActiveIndex(10)"
+				setTerm(10)			
+XSS attack
+-Cross site scripting attack
+-accidentally pickup and render some html from untrusted source that
+	can allow hackers inside the application
+
+setTimeout
+	-a delay function
+	-outputs a value as an identifier
+clearTimeout
+	-cancels the setTimeout function by passing the identifier value	
+
+Efficiently debouncing requests through setTimeouts and clearTimeouts
+
+Widget
+-Accordion
+-Dropdown
+-Lists
+-Translate
+
+Handling dropdowns by Event bubbling
+	-overriding onclick events
+
+Translating text with Google Translate api & hooks
+
+Building Links to properly handle navigation requests
+
+
+	
+event.metaKey || event.ctrlKey
+	-boolean properties
+	-metaKey for Mac
+	-ctrlKey for Windows
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
